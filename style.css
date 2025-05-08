@@ -25,7 +25,7 @@
   
   .titulo {
     font-size: 3rem;
-    color: #d84315;
+    color: #d81815;
     transition: color 0.4s ease, transform 0.3s ease;
     cursor: pointer;
   }
