@@ -1,105 +1,117 @@
 /* Reset básico */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    background: linear-gradient(120deg, #a5722b, #692c17);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #c1602f;
-    line-height: 1.6;
-    padding: 20px;
-  }
-  
-  /* Cabeçalho */
-  header {
-    background-color: #fff;
-    padding: 30px;
-    border-radius: 10px;
-    text-align: center;
-    margin-bottom: 20px;
-    box-shadow: 0 0 15px rgba(250, 104, 6, 0.4);
-  }
-  
-  .titulo {
-    font-size: 3rem;
-    color: #d81815;
-    transition: color 0.4s ease, transform 0.3s ease;
-    cursor: pointer;
-  }
-  
-  .titulo:hover {
-    color: #ff5722;
-    transform: scale(1.05);
-  }
-  
-  /* Navegação */
-  nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin-bottom: 30px;
-  }
-  
-  nav a {
-    text-decoration: none;
-    color: #872000;
-    font-weight: bold;
-    font-size: 1.1rem;
-    padding: 10px;
-    transition: background 0.3s;
-  }
-  
-  nav a:hover {
-    background-color: #ffccbc;
-    border-radius: 5px;
-  }
-  
-  /* Conteúdo principal */
-  main section {
-    background-color: #fff8f0;
-    margin-bottom: 20px;
-    padding: 20px;
-    border-left: 5px solid #ff7043;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(255, 87, 34, 0.2);
-  }
-  
-  main h2 {
-    color: #bf360c;
-    margin-bottom: 10px;
-  }
-  
-  /* Lista de curiosidades */
-  ul {
-    margin-top: 10px;
-    padding-left: 20px;
-  }
-  
-  ul li {
-    margin-bottom: 8px;
-  }
-  
-  /* Aside */
-  aside {
-    background-color: #ffe0b2;
-    padding: 20px;
-    border-radius: 8px;
-    margin-top: 30px;
-    font-style: italic;
-    box-shadow: 0 0 10px rgba(255, 111, 0, 0.3);
-  }
-  
-  /* Rodapé */
-  footer {
-    background-color: #d84315;
-    color: #fff;
-    padding: 15px;
-    text-align: center;
-    border-radius: 10px;
-    margin-top: 40px;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to bottom, #3b0a0a, #ff6f00);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fbe9e7;
+  padding: 30px;
+  line-height: 1.8;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #4e0d0d;
+  padding: 50px 20px;
+  border-radius: 15px;
+  text-align: center;
+  margin-bottom: 30px;
+  box-shadow: 0 0 20px rgba(255, 87, 34, 0.7);
+}
+
+.titulo {
+  font-size: 4rem;
+  color: #b71c1c;
+  transition: color 0.4s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+.titulo:hover {
+  color: #ff9800;
+  transform: scale(1.08);
+}
+
+/* Navegação */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 30px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffccbc;
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding: 10px 15px;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+
+nav a:hover {
+  background-color: #ff7043;
+  color: #fff;
+  border-color: #ffab91;
+}
+
+/* Seções principais */
+main section {
+  background-color: #5d1b1b;
+  margin-bottom: 30px;
+  padding: 30px;
+  border-left: 8px solid #ff9800;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(255, 112, 67, 0.4);
+}
+
+main h2 {
+  color: #ffab91;
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+}
+
+/* Curiosidades em lista */
+ul {
+  padding-left: 30px;
+  margin-top: 10px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Aside */
+aside {
+  background-color: #6d1a1a;
+  padding: 25px;
+  border-radius: 10px;
+  font-style: italic;
+  margin-top: 40px;
+  box-shadow: 0 0 10px rgba(255, 111, 0, 0.3);
+}
+
+aside h3 {
+  color: #ffccbc;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+/* Rodapé */
+footer {
+  background-color: #bf360c;
+  color: #fff8e1;
+  text-align: center;
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 50px;
+  font-size: 1.1rem;
+}
+
   
